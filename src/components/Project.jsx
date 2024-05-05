@@ -34,8 +34,8 @@ const Project = () => {
       img: project4,
       name: "Portfolio",
       github_link:
-        "https://github.com/raghava7095",
-      live_link: "https://github.com/raghava7095",
+        "https://github.com/raghava7095/my_portfolio",
+      live_link: "https://my-portfolio-mu-bice-58.vercel.app/",
     },
     {
       img: project5,
