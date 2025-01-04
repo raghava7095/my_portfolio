@@ -5,6 +5,8 @@ import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.jpg";
 import project4 from "../assets/images/project-4.jpg";
 import project5 from "../assets/images/project-5.png";
+import project6 from "../assets/images/project-6.png";
+import project7 from "../assets/images/project-7.png";
 import project_person from "../assets/images/project_person1.png";
 import {Pagination } from 'swiper/modules';
 import "swiper/css";
@@ -12,6 +14,27 @@ import "swiper/css/pagination";
 
 const Project = () => {
   const projects = [
+    {
+      img: project4,
+      name: "Portfolio",
+      github_link:
+        "https://github.com/raghava7095/my_portfolio",
+      live_link: "https://my-portfolio-mu-bice-58.vercel.app/",
+    },
+    {
+      img: project6,
+      name: "Airlines",
+      github_link:
+        "https://github.com/raghava7095/Airlines",
+      live_link: "https://github.com/raghava7095/Airlines",
+    },
+    {
+      img: project7,
+      name: "Comprehensive LMS",
+      github_link:
+        "https://github.com/Parthasrikar/mini-project",
+      live_link: "https://parthasrikar.github.io/mini-project/",
+    },
     {
       img: project1,
       name: "Weather App",
@@ -29,13 +52,6 @@ const Project = () => {
       name: "Landing Page",
       github_link: "https://github.com/raghava7095/landing-page",
       live_link: "https://raghava7095.github.io/landing-page/",
-    },
-    {
-      img: project4,
-      name: "Portfolio",
-      github_link:
-        "https://github.com/raghava7095/my_portfolio",
-      live_link: "https://my-portfolio-mu-bice-58.vercel.app/",
     },
     {
       img: project5,

@@ -15,7 +15,16 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-             I am a Consistent and Quick Learner in Software Development and I made a lot of good projects which can make me a part of your development projects and collaborations.And I am good at Web development and Comptetive programming which helps in backend development also.
+          Are you looking for a dedicated and skilled developer to bring your ideas to life? Let’s collaborate!
+
+With expertise in ReactJS, Tailwind CSS, and MERN stack development, I can help you build user-friendly, scalable, and visually appealing web applications. Whether it’s creating interactive front-end designs, developing full-stack solutions, or solving challenging technical problems, I’m here to contribute.
+
+Feel free to reach out if you:
+
+Have a project that needs attention.
+Want to collaborate on something innovative.
+Need a frontend/backend developer for your team.
+Let’s work together to turn your vision into reality! 🚀
       </p>
           <a href="#contact"><button className="btn-primary mt-10">Say Hello</button></a>
         </div>

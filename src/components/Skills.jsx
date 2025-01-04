@@ -5,22 +5,22 @@ const Skills = () => {
     {
       logo: "logo-html5",
       level: "Advance",
-      count: 86,
+      count: 90,
     },
     {
       logo: "logo-css3",
       level: "Expect",
-      count: 60,
+      count: 85,
     },
     {
       logo: "logo-nodejs",
       level: "Intermediate",
-      count: 40,
+      count: 60,
     },
     {
       logo: "logo-react",
       level: "Intermediate",
-      count: 40,
+      count: 70,
     },
   ];
   return (

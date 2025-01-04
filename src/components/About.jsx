@@ -2,9 +2,9 @@ import React from "react";
 import aboutImg from "../assets/images/about.png";
 const About = () => {
   const info = [
-    { text: "Years experience", count: "0-1" },
-    { text: "Completed Projects", count: "4" },
-    { text: "Internships", count: "03" },
+    { text: "Years experience", count: "2" },
+    { text: "Completed Projects", count: "10" },
+    { text: "Internships", count: "1" },
   ];
   return (
     <section id="about" className="py-10 text-white">
@@ -17,9 +17,8 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Iam a Passionate Web Developer and enthusiast of Software Engineering which includes Competetive Programming and towards Artificial Intelligence.
-                I Love to talk with strangers which improves my communication skills and initiative skills and I am quick learner and i am bit lazy one.
-                Lastly I develop my skills by working on different projects.
+              Hi! I'm a passionate and ambitious Computer Science Engineering student with a strong foundation in web development and a love for solving complex problems through code. With expertise in ReactJS, Tailwind CSS, and MERN stack development, I create visually appealing and highly functional web applications.
+I thrive on building projects that not only solve real-world problems but also push the boundaries of my technical and creative skills. My portfolio showcases a blend of personal and collaborative projects.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
@@ -34,7 +33,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/resume.pdf" download>
+              <a href="./src/assets/Raghavendra_Resume.pdf" download>
                 <button className="btn-primary">Resume</button>
               </a>
             </div>
