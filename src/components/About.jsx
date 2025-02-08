@@ -33,7 +33,7 @@ I thrive on building projects that not only solve real-world problems but also p
               </div>
               <br />
               <br />
-              <a href="./src/assets/Raghavendra_Resume.pdf" download>
+              <a href="./src/assets/Raghava_Resume.pdf" download>
                 <button className="btn-primary">Resume</button>
               </a>
             </div>

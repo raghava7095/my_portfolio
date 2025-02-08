@@ -9,10 +9,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_f4yhhcj", // Your Service ID
-        "template_g3gx1ni", // Your Template ID
+        "service_f4yhhcj", 
+        "template_g3gx1ni",
         form.current,
-        "dTCL0nOFZgySIcuT9" // Your Public Key
+        "dTCL0nOFZgySIcuT9"
       )
       .then(
         (result) => {
@@ -57,7 +57,6 @@ const Contact = () => {
           className="mt-16 flex md:flex-row flex-col
          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
-          {/* Form Section */}
           <form
             ref={form}
             onSubmit={sendEmail}
